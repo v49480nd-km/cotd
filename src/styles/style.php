@@ -46,9 +46,10 @@ body {
 .nav {
     height: 4rem;
     padding: 2rem 0 0 1rem;
+    margin-bottom: 1rem;
 }
 
-ul, li {
+.nav ul,.nav ul li {
     display: inline;
     float: left;
     height: 100%;
@@ -56,23 +57,28 @@ ul, li {
     list-style-type: none;
 }
 
-ul li a {
+.nav ul li a {
     display: block;
     height: 100%;
     padding: 0 1rem;
     color: <?=$text?>;
     text-decoration: none;
     font-size: 1.25rem;
-    transition: 0.1s;
 }
 
-ul, li a:hover {
-    font-size: 1.35rem;
-    transition: 0.1s;
+.nav ul li a:hover {
+    font-weight: 600;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+ul li {
+    padding: 1rem 0;
 }
 
 a {
-    display: block;
     text-decoration: none;
     color: <?=$link?>;
     padding: 1rem 0;

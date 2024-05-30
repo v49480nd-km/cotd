@@ -12,7 +12,7 @@
         <ul>
             <li><a href="./home.php">Home</a></li>
             <li><a href="#">Projects</a></li>
-            <li><a href="#">Tech</a></li>
+            <li><a href="./tech.php">Tech</a></li>
             <li><a href="./manifesto.php">Manifesto</a></li>
             <li><a href="./theme.php">Theme</a></li>
         </ul>

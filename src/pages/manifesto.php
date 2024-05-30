@@ -41,15 +41,20 @@
             <section class="greeting">
                 <p class="title">Resources</p>
                 <article>
-                    <a 
-                        href="https://archive.org/details/the-satanic-bible_epub-and-pdf/mode/2up"
-                        target="_blank">The Satanic Bible</a>
-                    <a
-                        href="https://www.askapache.com/hacking/hacker-manifesto/#Hacker_Manifesto"
-                        target="_blank">The Hacker Manifesto</a>
-                    <a
-                        href="https://archive.org/details/laozi_tao-te-ching"
-                        target="_blank">Tao Te Ching</a>
+                    <ul>
+                        <li><a 
+                            href="https://archive.org/details/the-satanic-bible_epub-and-pdf/mode/2up"
+                            target="_blank">The Satanic Bible</a></li>
+                        <li><a
+                            href="https://www.askapache.com/hacking/hacker-manifesto/#Hacker_Manifesto"
+                            target="_blank">The Hacker Manifesto</a></li>
+                        <li><a
+                            href="https://archive.org/details/laozi_tao-te-ching"
+                            target="_blank">Tao Te Ching</a></li>
+                        <li><a
+                            href="https://suckless.org/philosophy/"
+                            target="_blank">Suckless Philosophy</a></li>
+                    </ul>
                 </article>
             </section>
         </main>
