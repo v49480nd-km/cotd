@@ -1,70 +1,66 @@
 <?php
 header("Content-type: text/css");
 
-// variables
-$white = "hsl(45, 29%, 97%)";
-$gray = "hsl(0, 0%, 36%)";
-$darkgray = "hsl(0, 0%, 18%)";
-$black = "hsl(11, 3%, 3%)";
+$text = "hsl(0, 0%, 85%)";
+$link = "hsl(210, 100%, 60%)";
+$secondText = "hsl(0, 0%, 50%)";
+$secondGround = "hsl(0, 0%, 25%)";
+$background = "hsl(0, 0%, 5%)";
 ?>
 
 * {
     margin: 0;
     padding: 0;
     font-family: Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
-html, body {
-    background-color: <?=$black?>;
-    color: <?=$white?>;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+html {
+    background-color: <?=$background?>;
+    color: <?=$text?>;
+    height: 100%;
 }
 
 body {
-    width: 50%;
-    margin: auto;
-    border: 3px dashed <?=$darkgray?>;
+    min-height: 100%;
+    border: 6px double <?=$secondGround?>;
 }
 
 .title {
     font-size: 3rem;
     font-weight: 700;
-    padding: 1rem 1rem 0 1rem;
+    padding: 1rem 1rem 0 2rem;
 }
 
 .titles .title {
-    padding: 3rem 1rem 0 1rem;
+    padding: 3rem 1rem 0 2rem;
 }
 
 .subtitle {
     font-size: 1.5rem;
     font-style: italic;
-    color: <?=$gray?>;
-    padding: 0 1rem;
+    color: <?=$secondText?>;
+    padding: 0 2rem;
 }
 
 .nav {
     height: 4rem;
+    padding: 2rem 0 0 1rem;
 }
 
 ul, li {
-    display: flex;
-    justify-content: flex-start;
-    align-content: center;
-    flex-flow: row wrap;
+    display: inline;
+    float: left;
     height: 100%;
     text-align: center;
     list-style-type: none;
 }
 
 ul li a {
-    align-content: center;
+    display: block;
     height: 100%;
     padding: 0 1rem;
-    color: <?=$white?>;
+    color: <?=$text?>;
     text-decoration: none;
     font-size: 1.25rem;
     transition: 0.1s;
@@ -75,23 +71,24 @@ ul, li a:hover {
     transition: 0.1s;
 }
 
-main {
-    flex-grow: 4;
+a {
+    display: block;
+    text-decoration: none;
+    color: <?=$link?>;
+    padding: 1rem 0;
 }
 
 .greeting {
-    padding: 0 1rem;
+    padding: 0 2rem;
 }
 
 .greeting article {
-    padding: 0 2rem;
+    padding: 0 4rem;
     font-size: 1.5rem;
     margin: 2rem 0;
 }
 
 footer {
-    display: flex;
-    align-items: center;
     font-size: 1.25rem;
     font-weight: 500;
     font-style: italic;
@@ -99,5 +96,5 @@ footer {
 }
 
 .footer {
-    padding: 0 1rem;
+    padding: 0 2rem;
 }
