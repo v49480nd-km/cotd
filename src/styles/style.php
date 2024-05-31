@@ -57,17 +57,22 @@ body {
     list-style-type: none;
 }
 
-.nav ul li a {
+.navlink {
     display: block;
     height: 100%;
     padding: 0 1rem;
-    color: <?=$text?>;
+    color: <?=$secondText?>;
     text-decoration: none;
     font-size: 1.25rem;
 }
 
-.nav ul li a:hover {
+.navlink:hover {
     font-weight: 600;
+}
+
+.active {
+    font-weight: 800;
+    color: <?=$text?>;
 }
 
 ul {

@@ -9,12 +9,19 @@
         <p class="subtitle">Live in pain... Rest in peace</p>
     </section>
     <section class="nav">
-        <ul>
-            <li><a href="./home.php">Home</a></li>
-            <li><a href="./projects.php">Projects</a></li>
-            <li><a href="./tech.php">Tech</a></li>
-            <li><a href="./manifesto.php">Manifesto</a></li>
-            <li><a href="./theme.php">Theme</a></li>
-        </ul>
+        <nav>
+            <ul>
+                <li><a class="navlink"
+                        href="http://localhost:8000/src/pages/home.php">Home</a></li>
+                <li><a class="navlink"
+                        href="http://localhost:8000/src/pages/projects.php">Projects</a></li>
+                <li><a class="navlink"
+                        href="http://localhost:8000/src/pages/tech.php">Tech</a></li>
+                <li><a class="navlink"
+                        href="http://localhost:8000/src/pages/manifesto.php">Manifesto</a></li>
+                <li><a class="navlink"
+                        href="http://localhost:8000/src/pages/theme.php">Theme</a></li>
+            </ul>
+        </nav>
     </section>
 </header>
