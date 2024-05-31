@@ -1,5 +1,7 @@
 <head>    
     <link rel="stylesheet" type="text/css" href="../styles/style.php" media="screen">
+    <link rel="stylesheet" type="text/css" href="../styles/headerstyle.php" media="screen">
+    <link rel="stylesheet" type="text/css" href="../styles/bodystyle.php" media="screen">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>City of the Dead</title>
 </head>
@@ -24,4 +26,5 @@
             </ul>
         </nav>
     </section>
+    <script src="../js/nav.js"></script>
 </header>
